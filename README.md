@@ -24,7 +24,7 @@ Natural Answer + Emotion
 
 ```bash
 git clone 
-cd Clippy
+cd Imagineear_QnA_Bot
 ```
 
 Or download and extract the ZIP file.
@@ -104,7 +104,7 @@ load_dotenv()
 ## Project Structure
 
 ```
-Clippy/
+Imagineear_QnA_Bot/
 ├── app.py                    # Main Flask application
 ├── knowledge_base.json       # Q&A pairs database
 ├── templates/
