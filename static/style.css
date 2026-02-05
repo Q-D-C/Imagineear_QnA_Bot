@@ -57,7 +57,8 @@ body {
 }
 
 .chat-output {
-    height: 300px;
+    height: calc(100vh - 400px);
+    min-height: 400px;
     overflow-y: auto;
     margin-bottom: 20px;
     padding: 20px;
