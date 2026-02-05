@@ -78,28 +78,11 @@ pip install flask anthropic sentence-transformers scikit-learn
 
 Get your Anthropic API key from [console.anthropic.com](https://console.anthropic.com/)
 
-**Option A - Environment Variable (Temporary):**
+**Environment Variable (Temporary):**
 ```bash
 export ANTHROPIC_API_KEY='your-api-key-here'
 ```
 
-**Option B - .env File (Recommended):**
-
-Create a `.env` file in the project root:
-```bash
-echo "ANTHROPIC_API_KEY='your-api-key-here'" > .env
-```
-
-Install dotenv:
-```bash
-pip install python-dotenv
-```
-
-Add to top of `app.py`:
-```python
-from dotenv import load_dotenv
-load_dotenv()
-```
 
 ## Project Structure
 
