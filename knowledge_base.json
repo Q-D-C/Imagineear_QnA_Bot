@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Are the books in Dumbledore's Office real?",
+        "keywords": ["books", "dumbledore", "office", "real", "shelves"],
+        "answer": "Yes and no. While they look like ancient, leather-bound magical texts, they are actually British phone books and yellow pages. The production team rebound them in leather and layered them with dust to make them look hundreds of years old. If you look closely at some of the open ones in the archives, you might see a phone number for a plumber in London!"
+    },
+    {
+        "question": "What are the opening hours?",
+        "keywords": ["hours", "open", "opening", "time", "close"],
+        "answer": "The studio tour is open daily from 9:30 AM to 10:00 PM. Last tour entry is at 6:30 PM. We're closed for two weeks in January for annual maintenance."
+    },
+    {
+        "question": "How long does the tour take?",
+        "keywords": ["long", "duration", "time", "tour", "takes"],
+        "answer": "The average tour takes about 3-4 hours. However, you're welcome to take as long as you like - there's no time limit! Some superfans have been known to spend 6+ hours exploring every detail."
+    },
+    {
+        "question": "Can I take photos?",
+        "keywords": ["photo", "photos", "camera", "picture", "video"],
+        "answer": "Yes! Photography is allowed throughout most of the tour. However, flash photography and tripods are not permitted. The green screen areas have specific photo opportunities where you can pose on a broomstick or in the Hogwarts Express!"
+    },
+    {
+        "question": "Is the Butterbeer alcoholic?",
+        "keywords": ["butterbeer", "alcohol", "alcoholic", "drink", "beverage"],
+        "answer": "No, the Butterbeer served at the studio tour is completely non-alcoholic and family-friendly. It's a sweet, butterscotch-flavored drink available in both regular and frozen versions. You can also take home souvenir tankards!"
+    },
+    {
+        "question": "Where is the studio located?",
+        "keywords": ["location", "where", "address", "find", "directions"],
+        "answer": "The Warner Bros. Studio Tour is located in Leavesden, Hertfordshire, about 20 miles northwest of London. The full address is Warner Bros. Studio Tour London, Studio Tour Drive, Leavesden, WD25 7LR."
+    },
+    {
+        "question": "Are there facilities for disabled visitors?",
+        "keywords": ["disabled", "wheelchair", "accessibility", "accessible", "mobility"],
+        "answer": "Yes, the studio tour is fully accessible for wheelchair users and visitors with reduced mobility. Wheelchairs are available to borrow free of charge (first come, first served), and all areas of the tour are accessible via ramps and lifts."
+    },
+    {
+        "question": "How much do tickets cost?",
+        "keywords": ["price", "cost", "tickets", "admission", "fee"],
+        "answer": "Adult tickets start at £53.50, child tickets (5-15 years) at £43.50, and family packages are available. Prices vary depending on the time and day you book. We recommend booking online in advance as tickets often sell out, especially during school holidays."
+    },
+    {
+        "question": "Is there parking available?",
+        "keywords": ["parking", "park", "car", "vehicle", "lot"],
+        "answer": "Yes, we have free on-site parking for all visitors. The car park can accommodate cars, coaches, and motorcycles. Blue Badge holders have designated accessible parking spaces near the entrance."
+    },
+    {
+        "question": "Can I bring food and drinks?",
+        "keywords": ["food", "drinks", "eat", "bring", "outside"],
+        "answer": "Outside food and drinks are not permitted inside the studio tour. However, we have a café and the Backlot Café serving hot and cold food, snacks, and beverages. You're welcome to bring food to eat in your car in the car park."
+    },
+    {
+        "question": "How do I get here by public transport?",
+        "keywords": ["train", "bus", "public", "transport", "shuttle"],
+        "answer": "The nearest train station is Watford Junction. From there, you can take the dedicated shuttle bus service that runs every 20 minutes and takes about 15 minutes. The shuttle costs £3 return and must be booked in advance online."
+    },
+    {
+        "question": "Do I need to book in advance?",
+        "keywords": ["book", "booking", "advance", "reserve", "tickets"],
+        "answer": "Yes, advance booking is essential. We operate on a timed-entry system and tickets regularly sell out, especially during weekends and school holidays. You cannot purchase tickets at the door. Book online at our official website."
+    },
+    {
+        "question": "Are there lockers available?",
+        "keywords": ["lockers", "storage", "bags", "luggage", "coat"],
+        "answer": "Yes, we have free lockers available for storing coats, bags, and other belongings. They're located near the entrance. We also have a free cloakroom service if the lockers are full."
+    },
+    {
+        "question": "Is the actual Hogwarts castle here?",
+        "keywords": ["hogwarts", "castle", "real", "actual", "building"],
+        "answer": "The films didn't use a single castle building. Instead, you'll see the incredible scale model of Hogwarts castle that was used for aerial shots in the films. It measures 50 feet across and took 86 artists and crew members to construct!"
+    },
+    {
+        "question": "Can I touch the props and sets?",
+        "keywords": ["touch", "props", "sets", "interactive", "hands"],
+        "answer": "Most props and sets are behind barriers for preservation, but there are several interactive elements throughout the tour! You can sit in the Hogwarts Express carriage, enter Hagrid's Hut, walk down Diagon Alley, and try on some costumes in designated areas."
+    },
+    {
+        "question": "Is there a gift shop?",
+        "keywords": ["shop", "gift", "store", "souvenirs", "merchandise"],
+        "answer": "Yes! The Studio Shop is the largest Harry Potter shop in the world, located at the end of the tour. You'll find exclusive merchandise, replica props, wands, robes, house scarves, and much more. You can also purchase items online after your visit."
+    },
+    {
+        "question": "Are the wands in Ollivanders real?",
+        "keywords": ["wands", "ollivanders", "real", "actual", "authentic"],
+        "answer": "The wands you see in Ollivanders are the actual screen-used props from the films! Over 17,000 wand boxes line the walls. Each wand was individually designed and crafted specifically for different characters and scenes throughout the film series."
+    },
+    {
+        "question": "Can I see where they filmed the flying scenes?",
+        "keywords": ["flying", "broomstick", "quidditch", "green", "screen"],
+        "answer": "Yes! You'll see the green screen area where actors filmed flying scenes. You can even try it yourself - sit on a real broomstick in front of a green screen and purchase a video of yourself flying over London or playing Quidditch!"
+    },
+    {
+        "question": "How many costumes are on display?",
+        "keywords": ["costumes", "clothes", "outfits", "robes", "wardrobe"],
+        "answer": "There are hundreds of authentic costumes on display, including iconic outfits worn by Harry, Hermione, Ron, Dumbledore, Voldemort, and many other characters. You'll see how the costumes evolved throughout the eight films as the characters aged."
+    },
+    {
+        "question": "Is the Forbidden Forest scary for children?",
+        "keywords": ["forbidden", "forest", "scary", "children", "kids"],
+        "answer": "The Forbidden Forest section can be a bit dark and atmospheric with creature sounds and special effects, but it's designed to be magical rather than terrifying. Most children find it exciting! Parents can decide if it's suitable based on their child's sensitivity."
+    },
+    {
+        "question": "Can I see Platform 9¾?",
+        "keywords": ["platform", "nine", "three", "quarters", "station"],
+        "answer": "Absolutely! You'll see the original Platform 9¾ set, complete with the Hogwarts Express steam engine. You can step aboard the actual train carriage used in the films and peek into the compartments where Harry, Ron, and Hermione had so many adventures!"
+    },
+    {
+        "question": "Are there age restrictions?",
+        "keywords": ["age", "children", "kids", "young", "minimum"],
+        "answer": "There's no minimum age requirement, but the tour is recommended for children aged 6 and up due to its length and some darker themes. Children under 16 must be accompanied by an adult. Under 5s go free but still need a ticket."
+    },
+    {
+        "question": "How big is Hagrid's motorbike?",
+        "keywords": ["hagrid", "motorbike", "motorcycle", "bike", "size"],
+        "answer": "Hagrid's motorbike is enormous! It's built to 1.5 times the normal size to make Hagrid appear giant-sized. The bike is a real, functioning vehicle that was actually ridden in the films, though it needed special reinforcement to handle the stunts!"
+    },
+    {
+        "question": "Can I visit the Gringotts Bank set?",
+        "keywords": ["gringotts", "bank", "vault", "goblin", "money"],
+        "answer": "Yes! You'll walk through the spectacular Gringotts Wizarding Bank set, including the stunning marble hall with its crystal chandeliers. You'll see the Lestrange vault piled high with treasure, and learn how the filmmakers created the goblin characters."
+    },
+    {
+        "question": "Are there dining options for special diets?",
+        "keywords": ["dietary", "vegetarian", "vegan", "allergies", "gluten"],
+        "answer": "Yes, our cafés offer vegetarian, vegan, and gluten-free options. All food items are labeled with allergen information. If you have specific dietary requirements, please speak to a member of staff who will be happy to help."
+    },
+    {
+        "question": "Can I celebrate a birthday here?",
+        "keywords": ["birthday", "party", "celebration", "event", "special"],
+        "answer": "While we don't offer private birthday parties, you're welcome to celebrate your special day here! Many visitors bring birthday badges or wizarding robes. You might even spot your name appearing in the Gryffindor common room if you're lucky!"
+    },
+    {
+        "question": "What special effects can I learn about?",
+        "keywords": ["effects", "special", "animatronics", "creatures", "magic"],
+        "answer": "You'll discover the secrets behind incredible special effects including animatronic creatures like Buckbeak and Aragog, the mechanics of flying broomsticks, the art of wand combat choreography, and how green screen technology brought magic to life. There are interactive displays throughout!"
+    },
+    {
+        "question": "Is the tour guided or self-guided?",
+        "keywords": ["guided", "tour", "guide", "self", "independent"],
+        "answer": "The tour is self-guided, allowing you to explore at your own pace and spend as much time as you like in each section. However, there are knowledgeable staff members throughout the tour who are happy to answer questions and share fascinating facts."
+    },
+    {
+        "question": "Can I see the actual Sorting Hat?",
+        "keywords": ["sorting", "hat", "real", "original", "authentic"],
+        "answer": "Yes! You'll see one of the original Sorting Hats used in the films. The filmmakers created several versions - some were operated by hand, while others used animatronics to create the talking and moving effects. You'll learn how they brought this iconic prop to life!"
+    },
+    {
+        "question": "What's in the Art Department section?",
+        "keywords": ["art", "department", "design", "drawings", "concept"],
+        "answer": "The Art Department section showcases original concept art, technical drawings, and scale models used to design the magical world. You'll see how artists transformed J.K. Rowling's words into visual reality, from the design of Hogwarts itself to the smallest prop details like chocolate frog cards and potion labels."
+    }
+]

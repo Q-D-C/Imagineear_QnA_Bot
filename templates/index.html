@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A Bot Prototype</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 Q&A Bot Prototype</h1>
+            <p>Embeddings pre-filter → Claude picks best + rephrases</p>
+        </div>
+
+        <div class="main-content">
+            <div class="chat-section">
+                <div class="chat-output" id="chatOutput">
+                    <div class="message bot-message">
+                        Hello! Ask me anything about the Harry Potter studio tour. I'll search my knowledge base for answers.
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <p style="color: #666; font-size: 0.9em; margin: 0;">Powered by Claude AI</p>
+                </div>
+
+                <div class="input-area">
+                    <input 
+                        type="text" 
+                        id="userInput" 
+                        placeholder="Type your question here..."
+                        onkeypress="if(event.key === 'Enter') askQuestion()"
+                    >
+                    <button onclick="askQuestion()">Ask</button>
+                </div>
+            </div>
+
+            <div class="database-section">
+                <h3>📚 Knowledge Base</h3>
+                <div id="database">
+                    {% for item in knowledge_base %}
+                    <div class="qa-item">
+                        <strong>Q{{ loop.index }}:</strong>
+                        <p>{{ item.question }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="stats">
+                    <h4>Statistics</h4>
+                    <p>Questions asked: <strong id="questionCount">0</strong></p>
+                    <p>Answers found: <strong id="answerCount">0</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let questionsAsked = 0;
+        let answersFound = 0;
+
+        async function askQuestion() {
+            const input = document.getElementById('userInput');
+            const question = input.value.trim();
+
+            if (!question) return;
+
+            // Add user message
+            addMessage(question, 'user');
+
+            // Update stats
+            questionsAsked++;
+            document.getElementById('questionCount').textContent = questionsAsked;
+
+            // Clear input
+            input.value = '';
+
+            // Call backend
+            try {
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ 
+                        question: question
+                    })
+                });
+
+                const data = await response.json();
+
+                // Add bot response
+                setTimeout(() => {
+                    if (data.found) {
+                        let matchInfo = `Matched: '${data.matched_question}' (similarity: ${(data.similarity * 100).toFixed(1)}%)\n😊 Emotion: ${data.emotion}`;
+                        
+                        addMessage(data.answer, 'bot', matchInfo, data.original_answer);
+                        answersFound++;
+                        document.getElementById('answerCount').textContent = answersFound;
+                    } else {
+                        addMessage(data.answer, 'bot-no-answer');
+                    }
+                }, 500);
+
+            } catch (error) {
+                addMessage('Error connecting to server.', 'bot-no-answer');
+            }
+        }
+
+        function addMessage(text, type, matchInfo = '', originalAnswer = '') {
+            const chatOutput = document.getElementById('chatOutput');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type === 'user' ? 'user-message' : type === 'bot-no-answer' ? 'bot-message no-answer' : 'bot-message'}`;
+            messageDiv.textContent = text;
+
+            if (matchInfo) {
+                const infoDiv = document.createElement('div');
+                infoDiv.className = 'match-info';
+                infoDiv.textContent = matchInfo;
+                messageDiv.appendChild(infoDiv);
+            }
+
+            // Show original answer option
+            if (originalAnswer && originalAnswer !== text) {
+                const originalDiv = document.createElement('details');
+                originalDiv.className = 'original-answer';
+                originalDiv.innerHTML = `
+                    <summary>Show database answer</summary>
+                    <p>${originalAnswer}</p>
+                `;
+                messageDiv.appendChild(originalDiv);
+            }
+
+            chatOutput.appendChild(messageDiv);
+            chatOutput.scrollTop = chatOutput.scrollHeight;
+        }
+    </script>
+</body>
+</html>
